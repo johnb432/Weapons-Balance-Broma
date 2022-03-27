@@ -3,7 +3,7 @@
 1.0.0.0
 - Initial release.
 - Added some ACE compatibility.
-- Fixes some bugs.
+- Fixed some bugs.
 
 Uniforms: 
     - Changed all uniforms to weigh 1.81 kg if they didn't before.

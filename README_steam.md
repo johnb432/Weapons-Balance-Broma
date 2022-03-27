@@ -1,5 +1,5 @@
 This collection of mods aims to rebalance other mods.
-This rebalancing balances items from Broma:
+This rebalancing balances items from Broma Equipments:
 [list]
 [*] Load & weight fixing of helmets, uniforms, vests & backpacks.
 [/list]

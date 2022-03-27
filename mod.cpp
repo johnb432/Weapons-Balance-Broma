@@ -1,7 +1,7 @@
-name = "Weapons Balance - Broma Equipment";
+name = "Weapons Balance - Broma Equipments";
 author = "johnb43";
-tooltip = "Weapons Balance - Broma Equipment";
-tooltipOwned = "Weapons Balance - Broma Equipment";
+tooltip = "Weapons Balance - Broma Equipments";
+tooltipOwned = "Weapons Balance - Broma Equipments";
 hideName = 0;
 hidePicture = 0;
 actionName = "Github";

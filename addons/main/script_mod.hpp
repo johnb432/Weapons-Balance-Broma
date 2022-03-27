@@ -10,4 +10,4 @@
 // MINIMAL required version for the Mod. Components can specify others..
 #define REQUIRED_VERSION 2.08
 
-#define COMPONENT_NAME QUOTE(Weapons Balance - Broma Equipment)
+#define COMPONENT_NAME QUOTE(Weapons Balance - Broma Equipments)
