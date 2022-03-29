@@ -1,3 +1,10 @@
+# Changelog for Weapons balance 29.3.2022
+
+1.0.0.1
+- Removed some fixes that mod has now fixed.
+- Fixed RRV & LBT vests not showing in arsenal.
+- Added some more ACE compatibility.
+
 # Changelog for Weapons balance 25.3.2022
 
 1.0.0.0

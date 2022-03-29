@@ -46,6 +46,7 @@ class BRM_CVCSF_GREEN: ItemCore {
     };
 };
 class BRM_CVCSFMASK_GREEN: BRM_CVCSF_GREEN {
+    ACE_Protection = 1;
     class ItemInfo: HeadgearItem {
         mass = 40;
         class HitpointsProtectionInfo {
@@ -66,21 +67,26 @@ class BRM_capPELTOR_Black: ItemCore {
     ace_hearing_protection = 0.75;
 };
 class BRM_PELTOR_Tglasses: BRM_capPELTOR_Black {
+    ACE_Protection = 1;
     class ItemInfo: HeadgearItem {
         mass = 4;
     };
 };
-
-class BRM_ShemPakolMASK;
-class BRM_ShemPakol: BRM_ShemPakolMASK {
-    class ItemInfo: HeadgearItem {
-        mass = 8;
-    };
+class BRM_PELTOR: BRM_PELTOR_Tglasses {
+    ACE_Protection = 0;
 };
 
-class BRM_SPH4_GREEN;
+class BRM_ShemPakolMASK: ItemCore {
+    ACE_Protection = 1;
+};
+class BRM_ShemPakol: BRM_ShemPakolMASK {
+    ACE_Protection = 0;
+};
+
+class BRM_SPH4_GREEN: ItemCore {
+    ace_hearing_lowerVolume = 0.6;
+    ace_hearing_protection = 0.85;
+};
 class BRM_SPH4V_GREEN: BRM_SPH4_GREEN {
-    class ItemInfo: HeadgearItem {
-        mass = 30;
-    };
+    ACE_Protection = 1;
 };
