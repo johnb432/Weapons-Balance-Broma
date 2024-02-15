@@ -1,6 +1,6 @@
 #define DENIM(type)\
 class type: BRM_DenimT_Green {\
-    class ItemInfo: ItemInfo {\
+    class ItemInfo: UniformItem {\
         mass = 40;\
     };\
 }

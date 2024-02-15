@@ -1,7 +1,8 @@
 #define PARKA(type)\
 class type: BRM_Parka_Green {\
-    class ItemInfo: ItemInfo {\
+    class ItemInfo: UniformItem {\
         mass = 40;\
+        uniformModel = "-";\
     };\
 }
 
@@ -34,6 +35,7 @@ PARKA(BRM_Parka_M90D);
 PARKA(BRM_Parka_M90W);
 PARKA(BRM_Parka_MLTCAM);
 PARKA(BRM_Parka_MLTCAMTS);
+PARKA(BRM_Parka_MM14);
 PARKA(BRM_Parka_NavyB);
 PARKA(BRM_Parka_ND);
 PARKA(BRM_Parka_NDDCU);

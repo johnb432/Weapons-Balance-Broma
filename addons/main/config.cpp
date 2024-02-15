@@ -31,6 +31,7 @@ class CfgPatches {
             "BRM_MARPAT",
             "BRM_MCU",
             "BRM_MLTCAM",
+            "BRM_MM14",
             "BRM_ND",
             "BRM_NORSK",
             "BRM_RAIN",

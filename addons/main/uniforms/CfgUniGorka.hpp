@@ -1,6 +1,6 @@
 #define GORKA(type)\
 class type: BRM_Gorka_Brown {\
-    class ItemInfo: ItemInfo {\
+    class ItemInfo: UniformItem {\
         mass = 40;\
     };\
 }

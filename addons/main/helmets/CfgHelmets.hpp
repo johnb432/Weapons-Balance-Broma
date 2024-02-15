@@ -12,7 +12,7 @@ class type: ItemCore {\
 
 #define HELMET_COMS(type,armorValue)\
 class type: ItemCore {\
-    ace_hearing_lowerVolume = 0.5;\
+    ace_hearing_lowerVolume = 0;\
     ace_hearing_protection = 0.75;\
     class ItemInfo: HeadgearItem {\
         mass = 40;\
@@ -34,7 +34,7 @@ HELMET_COMS(BRM_ACH_MASK_COMS_GREEN,6);
 HELMET_COMS(BRM_6B7_MASK_COMS_GREEN,6);
 
 class BRM_CVCSF_GREEN: ItemCore {
-    ace_hearing_lowerVolume = 0.5;
+    ace_hearing_lowerVolume = 0;
     ace_hearing_protection = 0.75;
     class ItemInfo: HeadgearItem {
         mass = 40;
@@ -58,12 +58,12 @@ class BRM_CVCSFMASK_GREEN: BRM_CVCSF_GREEN {
 };
 
 class BRM_BeretPELTOR_Blue: ItemCore {
-    ace_hearing_lowerVolume = 0.5;
+    ace_hearing_lowerVolume = 0;
     ace_hearing_protection = 0.75;
 };
 
 class BRM_capPELTOR_Black: ItemCore {
-    ace_hearing_lowerVolume = 0.5;
+    ace_hearing_lowerVolume = 0;
     ace_hearing_protection = 0.75;
 };
 class BRM_PELTOR_Tglasses: BRM_capPELTOR_Black {
@@ -84,7 +84,7 @@ class BRM_ShemPakol: BRM_ShemPakolMASK {
 };
 
 class BRM_SPH4_GREEN: ItemCore {
-    ace_hearing_lowerVolume = 0.6;
+    ace_hearing_lowerVolume = 0;
     ace_hearing_protection = 0.85;
 };
 class BRM_SPH4V_GREEN: BRM_SPH4_GREEN {

@@ -1,3 +1,10 @@
+# Changelog for Weapons balance 15.2.2024
+
+1.0.1.0
+- Balanced MM14 uniforms.
+- Removed voice attenuation from headwear.
+- Cleanup. 
+
 # Changelog for Weapons balance 29.3.2022
 
 1.0.0.1

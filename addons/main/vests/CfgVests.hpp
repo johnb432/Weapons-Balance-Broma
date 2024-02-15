@@ -3,7 +3,18 @@ class Vest_Camo_Base: ItemCore {
     class ItemInfo;
 };
 class BRM_IBA_base: Vest_Camo_Base {
-    class ItemInfo: VestItem {};
+    class ItemInfo;
+};
+class BMR_MLBVARMOR_BROWN_RFL: BRM_IBA_base {
+    class ItemInfo: ItemInfo {
+        mass = 100;
+    };
+};
+class MBSS_base: Vest_Camo_Base {
+    class ItemInfo;
+};
+class MTV_vest_base: Vest_Camo_Base {
+    class ItemInfo;
 };
 
 #define VEST(type1,type2,load)\
@@ -21,11 +32,6 @@ class type1: type2 {\
     };\
 }
 
-class BMR_MLBVARMOR_BROWN_RFL: BRM_IBA_base {
-    class ItemInfo: ItemInfo {
-        mass = 100;
-    };
-};
 
 VEST_MASS(BMR_MLBVARMOR_BROWN_RFL,BRM_IBA_base,"Supply140",100);
 VEST(BMR_MLBVARMOR_BROWN_GL,BMR_MLBVARMOR_BROWN_RFL,"Supply140");
@@ -52,9 +58,6 @@ VEST(BRM_IBA_ALICE_SF2,BRM_IBA_ALICE_RFL,"Supply140");
 VEST(BRM_IBA_ALICE_TL,BRM_IBA_ALICE_RFL,"Supply140");
 
 
-class MBSS_base: Vest_Camo_Base {
-    class ItemInfo: ItemInfo {};
-};
 VEST(BRM_LBT_BROWN_RFL,MBSS_base,"Supply140");
 VEST(BRM_LBT_BROWN_GL,BRM_LBT_BROWN_RFL,"Supply140");
 VEST(BRM_LBT_BROWN_GLAK,BRM_LBT_BROWN_RFL,"Supply140");
@@ -73,6 +76,7 @@ VEST_MASS(BRM_RRV_GREEN_RECLEAD,BRM_RRV_GREEN_RFL,"Supply140",100);
 VEST_MASS(BRM_RRV_GREEN_RECMED,BRM_RRV_GREEN_RFL,"Supply140",100);
 VEST_MASS(BRM_RRV_GREEN_TL,BRM_RRV_GREEN_RFL,"Supply140",100);
 
+VEST(BRM_MBSS_GL,MBSS_base,"Supply140");
 
 VEST(BRM_6B_BROWN_RFL,Vest_Camo_Base,"Supply140");
 VEST(BRM_6B_BROWN_COM,BRM_6B_BROWN_RFL,"Supply140");
@@ -81,3 +85,13 @@ VEST_MASS(BRM_SOVWEB_BROWN_SL,Vest_Camo_Base,"Supply140",22);
 VEST(BRM_SOVWEB_BROWN_COM,BRM_SOVWEB_BROWN_SL,"Supply140");
 
 VEST_MASS(BRM_Protec_GREEN_HeavyRFL,Vest_Camo_Base,"Supply140",140);
+
+
+VEST(BRM_MTV_AR,MTV_vest_base,"Supply140");
+VEST(BRM_MTV_GL,MTV_vest_base,"Supply140");
+VEST(BRM_MTV_Light,MTV_vest_base,"Supply140");
+VEST(BRM_MTV_SL,MTV_vest_base,"Supply140");
+VEST(BRM_MTV_TL,MTV_vest_base,"Supply140");
+
+VEST(BRM_MTV_MG,BRM_MTV_AR,"Supply140");
+VEST(BRM_MTV_COM,BRM_MTV_Light,"Supply140");
